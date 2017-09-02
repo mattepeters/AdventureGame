@@ -1,7 +1,7 @@
 # Adventore Game 
 
 import player;
-import rooms;
+import world;
 import common;
 common.Clear();
 
@@ -15,7 +15,10 @@ common.Clear()
 print "Welcome, %s.  Let's get started." % (player1.name)
 print ""
 
-rooms.EnterDogYard(player1);
+#rooms.EnterDogYard(player1);
+
+world = world.World()
+world.Start(player1)
 
 print ("\n" * 10);
 print "Game over."
