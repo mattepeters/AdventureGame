@@ -7,4 +7,3 @@ class Player:
 	self.name = raw_input("Enter your name:");
 	return;
 
-print "Test"
