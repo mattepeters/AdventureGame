@@ -6,4 +6,5 @@ class Player:
     def setup(self):
 	self.name = raw_input("Enter your name:");
 	return;
+    
 
